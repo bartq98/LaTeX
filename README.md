@@ -5,5 +5,9 @@ Additionaly below there're some tips and good practicies for writing clear, good
 
 TOC - *to be done*
 
+#### List of useful articles etc.:
+- https://github.com/dspinellis/latex-advice
+
+
 #### Setup development environment with Visual Studio Code and [LaTeX-Workshop](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop)
 *to be written soon*
