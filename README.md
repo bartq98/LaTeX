@@ -7,6 +7,7 @@ TOC - *to be done*
 
 #### List of useful articles etc.:
 - https://github.com/dspinellis/latex-advice
+- https://tex.stackexchange.com/questions/36423/random-unwanted-space-between-paragraphs
 
 
 #### Setup development environment with Visual Studio Code and [LaTeX-Workshop](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop)
