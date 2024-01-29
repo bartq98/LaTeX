@@ -2,11 +2,12 @@
 
 <p align="center">Make your Latex document locally efficient way!</p>
 
-<!-- This reposiory allows you to use 
+<h3>Table of contents</h3>
 
-#### List of useful articles etc.:
-- https://github.com/dspinellis/latex-advice
-- https://tex.stackexchange.com/questions/36423/random-unwanted-space-between-paragraphs -->
+- [0. Prerequarities](#0-prerequarities)
+- [1. Usage](#1-usage)
+  - [1.1 How to run this repository](#11-how-to-run-this-repository)
+- [2. Additional Resources](#2-additional-resources)
 
 ### 0. Prerequarities
 
@@ -26,3 +27,9 @@ Requirements:
 2. Run `code .` to open it
 3. Press `ctrl+shift+p` or press `F1` and choose `Dev Containers: Open Workspace in Container`
 4. Now you can use separated Latex environment for your purposes.
+
+### 2. Additional Resources
+
+- [dspinellis/latex-advice](https://github.com/dspinellis/latex-advice)
+- [Random unwanted space between paragraphs](https://tex.stackexchange.com/questions/36423/random-unwanted-space-between-paragraphs)
+
