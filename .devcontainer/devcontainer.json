@@ -1,0 +1,26 @@
+{
+    "name": "Visual Studio Code - Latex Working environment",
+
+    "build": {
+        "dockerfile": "dockerfile"
+    },
+
+    "settings": {
+        "terminal.integrated.shell.linux": "/bin/zsh"
+    },
+
+    "shutdownAction": "stopContainer",
+    "initializeCommand": "pwd && ls",
+    "postCreateCommand": "echo PostCreate",
+
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "christian-kohler.path-intellisense",
+                "James-Yu.latex-workshop",
+                "oderwat.indent-rainbow",
+                "valentjn.vscode-ltex"
+            ]
+        }
+    }
+}
