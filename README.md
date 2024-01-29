@@ -1,14 +1,35 @@
-<h1 align="center"><i>LaTeX Tips'n'Templates</i> :blue_book:</h1>
+<h1 align="center">Latex working environment with Visual Studio Code</h1>
 
-<p align="center">This repository contains Latex templates, mainly purposed for computer science assigments. <br>
-Additionaly below there're some tips and good practicies for writing clear, good-looking Latex documents.</p>
+<p align="center">Make your Latex document locally efficient way!</p>
 
-TOC - *to be done*
+<h3>Table of contents</h3>
 
-#### List of useful articles etc.:
-- https://github.com/dspinellis/latex-advice
-- https://tex.stackexchange.com/questions/36423/random-unwanted-space-between-paragraphs
+- [0. Prerequarities](#0-prerequarities)
+- [1. Usage](#1-usage)
+  - [1.1 How to run this repository](#11-how-to-run-this-repository)
+- [2. Additional Resources](#2-additional-resources)
 
+### 0. Prerequarities
 
-#### Setup development environment with Visual Studio Code and [LaTeX-Workshop](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop)
-*to be written soon*
+This tutorial is intended to be run/executed on as many operating systems as possible.
+As whole environment is wrapped in Docker and uses Visual Studio Code you problably don't need install anything additional.
+
+Requirements:
+- Docker (tested on 24.0.7)
+- Visual Studio Code (tested on 1.85.2)
+  - exstension: ms-vscode-remote.remote-containers
+
+### 1. Usage
+
+#### 1.1 How to run this repository
+
+1. Go to folder where you've downloaded this repository
+2. Run `code .` to open it
+3. Press `ctrl+shift+p` or press `F1` and choose `Dev Containers: Open Workspace in Container`
+4. Now you can use separated Latex environment for your purposes.
+
+### 2. Additional Resources
+
+- [dspinellis/latex-advice](https://github.com/dspinellis/latex-advice)
+- [Random unwanted space between paragraphs](https://tex.stackexchange.com/questions/36423/random-unwanted-space-between-paragraphs)
+
