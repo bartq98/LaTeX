@@ -5,13 +5,11 @@
         "dockerfile": "dockerfile"
     },
 
-    "settings": {
-        "terminal.integrated.shell.linux": "/bin/zsh"
-    },
-
     "shutdownAction": "stopContainer",
-    "initializeCommand": "pwd && ls",
-    "postCreateCommand": "echo PostCreate",
+    "initializeCommand": "pwd && ls -lthr && echo initializeCommand",
+    "postCreateCommand": "pwd && ls -lthr && echo postCreateCommand",
+
+    "runArgs": ["--env-file", ".env"],
 
     "customizations": {
         "vscode": {
@@ -20,7 +18,24 @@
                 "James-Yu.latex-workshop",
                 "oderwat.indent-rainbow",
                 "valentjn.vscode-ltex"
-            ]
+            ],
+            "settings": {
+                // Visual Studio Code
+                "terminal.integrated.shell.linux": "/bin/zsh",
+
+                // latex-workshop
+                "latex-workshop.latex.outDir": "${containerWorkspaceFolder}/${containerEnv:OUTPUT_DIR_NAME}/",
+                "latex-workshop.latex.magic.args": [
+                    "-synctex=1",
+                    "-interaction=nonstopmode",
+                    "-file-line-error",
+                    "--output-directory=%OUTDIR%",
+                    "%DOC%"
+                ],
+
+                // vscode-ltex
+                "ltex.language": "${containerEnv:LTEX_LANGUAGE}"
+            }
         }
     }
 }

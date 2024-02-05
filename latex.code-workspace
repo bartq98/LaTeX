@@ -5,6 +5,7 @@
 		}
 	],
 	"settings": {
+		// Visual Studio Code
 		"files.exclude": {
 			// Defaults from VSCode
 			"**/.git": true,
@@ -16,6 +17,6 @@
 			// Custom
 			"**/.devcontainer": true,
 			"**/.gitignore": true,
-		}
+		},
 	}
 }

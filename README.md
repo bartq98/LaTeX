@@ -7,6 +7,7 @@
 - [0. Prerequarities](#0-prerequarities)
 - [1. Usage](#1-usage)
   - [1.1 How to run this repository](#11-how-to-run-this-repository)
+  - [1.2 Configuration](#12-configuration)
 - [2. Additional Resources](#2-additional-resources)
 
 ### 0. Prerequarities
@@ -27,6 +28,10 @@ Requirements:
 2. Run `code .` to open it
 3. Press `ctrl+shift+p` or press `F1` and choose `Dev Containers: Open Workspace in Container`
 4. Now you can use separated Latex environment for your purposes.
+
+#### 1.2 Configuration
+
+Basic configuration like output directory (where your generated .pdf files will be saved) or lTex main language can be changed in `.env` file. All supported configuration variables with default values are stored within this file.
 
 ### 2. Additional Resources
 
